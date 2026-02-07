@@ -1,0 +1,19 @@
+# Core FEA & Math
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Meshing & Geometry
+trimesh>=4.0.0
+meshio>=5.3.0
+gmsh>=4.0.0
+h5py
+
+# Visualization
+pyvista>=0.40.0
+vtk>=9.2.0
+
+# Optional: GPU Acceleration (RTX 5080)
+# cupy-cuda12x
+
+# Note: FEniCSx (dolfinx) is best installed via Conda in WSL2:
+# conda install -c conda-forge fenics-dolfinx

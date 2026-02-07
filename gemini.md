@@ -1,0 +1,2 @@
+별도의 지시가 없으면 한글로 implementation_plan, task 등의 문서를 작성하고, 답변도 한국어로 하라.
+현재 컴퓨터 스펙은 다음과 같다 - CPU: AMD 라이젠9-6세대 9900X (그래니트 릿지) (멀티팩 정품) 쿨러/튜닝: Thermalright Peerless Assassin 120 SE 서린 메인보드: MSI MAG B650 토마호크 WIFI 메모리: AGI DDR5-5600 CL46 UD238 서린 (32GB) (2개) 그래픽카드: MANLI 지포스 RTX 5080 Polar Fox OC D7 16GB 대원씨티에스 SSD: SK하이닉스 Platinum P41 M.2 NVMe (1TB) 케이스: darkFlash DLX21 RGB MESH 강화유리 (블랙) 파워: SuperFlower SF-1000F14XG LEADEX VII GOLD ATX3.1
