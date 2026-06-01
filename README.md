@@ -8,7 +8,7 @@
 ### Architecture Diagram
 ```mermaid
 graph TD
-    A[Tooth STL Model] --> B[FEniCS Mesh Conversion]
-    B --> C[Finite Element Analysis]
-    C --> D[GLB Export & Visualization]
+    A["Tooth STL Model"] --> B["FEniCS Mesh Conversion"]
+    B --> C["Finite Element Analysis"]
+    C --> D["GLB Export & Visualization"]
 ```
