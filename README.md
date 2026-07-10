@@ -1,9 +1,11 @@
 # FEA_for_Dentistry
 
-![Status](https://img.shields.io/badge/Status-Under%20Construction-yellow) ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Status](https://img.shields.io/badge/Status-v1.0%20Release-brightgreen) ![Python](https://img.shields.io/badge/Python-3.12%2B-blue) ![Backend](https://img.shields.io/badge/Backend-YOLOv8-red) ![UI](https://img.shields.io/badge/UI-Streamlit-orange) ![CI/CD Pipeline](https://img.shields.io/badge/CI%2FCD%20Pipeline-passing-brightgreen?logo=github)
 
 
-## Technical Architecture & Workflow
+ 
+
+## 개요
 
 ### Architecture Diagram
 ```mermaid
