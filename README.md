@@ -6,6 +6,8 @@
  
 
 ## 개요
+> **[학습 환경 사양]** 실질적 모델 학습은 **RTX 5080 + 라이젠9-6 9900x** 환경에서 진행되었습니다.
+
 
 ### Architecture Diagram
 ```mermaid
@@ -13,4 +15,9 @@ graph TD
     A["Tooth STL Model"] --> B["FEniCS Mesh Conversion"]
     B --> C["Finite Element Analysis"]
     C --> D["GLB Export & Visualization"]
+```
+
+## 설치 및 실행 방법
+```bash
+pip install -r requirements.txt
 ```
