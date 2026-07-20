@@ -17,3 +17,4 @@ vtk>=9.2.0
 
 # Note: FEniCSx (dolfinx) is best installed via Conda in WSL2:
 # conda install -c conda-forge fenics-dolfinx
+git+https://github.com/HyunchanAn/Dental_Core.git@master
