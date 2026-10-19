@@ -6,3 +6,11 @@ data/
 *.pth
 .env
 *.onnx
+
+# Installer binaries & Python cache
+Miniforge3-*.sh*
+*.sh.1
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
