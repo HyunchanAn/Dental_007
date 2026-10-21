@@ -6,6 +6,9 @@ data/
 *.pth
 .env
 *.onnx
+gemini.md
+GEMINI.md
+memo.txt
 
 # Installer binaries & Python cache
 Miniforge3-*.sh*

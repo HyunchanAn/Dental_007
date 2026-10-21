@@ -7,7 +7,7 @@
       <Material>
         <BulkDetails>
           <Name>Dentin</Name>
-          <Description>Dentin character (from Google Gemini)</Description>
+          <Description>Human Molar Dentin Isotropic Elastic Properties (Craig and Peyton 1958; Kinney et al. 2003)</Description>
           <Class>
             <Name>Alloy</Name>
           </Class>
