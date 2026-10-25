@@ -1,0 +1,36 @@
+2026-02-05
+- 치아 3D STL 메쉬 기반 유한요소해석(FEA) 및 응력 분포 시뮬레이션 프로젝트(`Dental_007`) 초기 구조 구축 완료.
+- Gmsh 기반 사면체(Tetrahedral) 볼륨 메쉬 변환기(`src/mesh_generator.py`), FEniCSx(`dolfinx`) 선형 탄성 응력 해석기(`src/fea_solver.py`), 3D GLB 시각화 익스포터(`src/visualizer.py`) 및 재료 물성 정의(`dentin_materials.xml`) 구현 완료.
+
+2026-02-08
+- 샘플 치아 형상 메쉬(`molar_block_01.stl`, `molar_block_02.stl`) 및 실행 파이프라인 스크립트(`src/main.py`) 구성 완료.
+
+2026-06-02
+- `README.md` 내 아키텍처 다이어그램 및 순서도 추가, Mermaid 특수문자 따옴표 문법 교정 완료.
+
+2026-07-10
+- 전역 규칙에 맞춘 `README.md` 배지 및 헤더 표준화 완료 (`260710_0915_FEA_Stress_Analysis_E2E_Validation_Report.md` 검증 리포트 작성).
+
+2026-07-14
+- 비학습 물리 시뮬레이션 모듈 특성에 맞춰 불필요한 딥러닝 학습 하드웨어 스펙 문구 정리 완료.
+
+2026-07-19
+- `.gitignore` 보강을 통한 데이터 및 바이너리 유출 방지 설정 적용 완료.
+
+2026-07-21
+- 중앙 재사용 CI 워크플로우(`reusable-ci.yml`) 연동 및 `PYTHONPATH` 테스트 경로 설정 완료.
+
+2026-08-17
+- 연구 보안 및 저장소 위생 베이스라인 적용 완료.
+
+2026-09-28
+- `Dental_Core` 의존성 브랜치(`@main`) 정렬 완료.
+
+2026-10-20
+- 이슈 #1 해결: 저장소에 커밋되어 있던 대용량 `Miniforge3-Linux-x86_64.sh` 설치 바이너리 2개(각 85.8MB) 및 `__pycache__` 추적 제거, MIT `LICENSE` 추가 및 conda-forge 기반 `fenics-dolfinx` 설치 가이드 문서화 완료.
+
+2026-10-21
+- 이슈 #3 해결: 로컬 설정 메모(`gemini.md`, `memo.txt`) 추적 제거, 일축 압축 및 오일러-베르누이 굽힘 이론 해 기반 해석 검증 모듈(`src/analytical_validation.py`)과 단위 테스트(`tests/test_analytical_validation.py`) 추가, `README.md` 개요·STL 형상·물성치 문헌 출처 명세 완료.
+
+2026-10-25
+- 전 시리즈 표준 양식(`YYYY-MM-DD` 헤더 및 하이픈 불릿)에 맞춘 루트 `development_log.txt` 구축 및 정돈 완료.
