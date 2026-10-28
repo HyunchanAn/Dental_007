@@ -34,3 +34,6 @@
 
 2026-10-25
 - 전 시리즈 표준 양식(`YYYY-MM-DD` 헤더 및 하이픈 불릿)에 맞춘 루트 `development_log.txt` 구축 및 정돈 완료.
+
+2026-10-28
+- 이슈 #4 해결: 중앙 재사용 워크플로우(`reusable-ci.yml`) 내 Gmsh/PyVista 구동을 위한 `libglu1-mesa` 및 X11 공유 라이브러리 설치를 연동하고 `.github/workflows/ci.yml`에서 로컬 해석 검증 테스트(`tests/`)와 중앙 테스트(`Dental_000/tests/tests_007`)를 함께 실행하도록 정비하여 원격 CI 통과 완료.
